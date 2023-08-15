@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body::-webkit-scrollbar {
+  @apply w-[8px]  bg-slate-100 ;
+}
+body.dark::-webkit-scrollbar, body.dark .todaybest::-webkit-scrollbar,body.dark .search-container::-webkit-scrollbar{
+  @apply w-[8px]  bg-slate-800 ;
+}
+body.dark::-webkit-scrollbar-thumb, body.dark .todaybest::-webkit-scrollbar {
+  @apply bg-slate-700;
+}
+.todaybest::-webkit-scrollbar {
+  @apply w-[5px] h-[7px] bg-slate-300 dark:bg-slate-900;
+}
+
+.search-container::-webkit-scrollbar {
+  @apply w-[8px] bg-slate-300 dark:bg-slate-900
+}
+
+
+.search-container::-webkit-scrollbar-thumb{
+  @apply bg-slate-500
+}
+
+
+.todaybest::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  @apply bg-slate-950 rounded;
+}
+
+
+body.dark{
+  @apply bg-slate-950
+}

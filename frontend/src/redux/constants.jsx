@@ -1,0 +1,9 @@
+export const BASE_URL = "http://localhost:8000";
+export const LOGIN_URL = BASE_URL + "/auth/login";
+export const REGISTER_URL = BASE_URL + '/user'
+export const CATEGORY_URL = BASE_URL + "/categorie"
+export const UPLOAD_URL = BASE_URL + "/upload"
+export const PRODUCT_URL = BASE_URL + "/produit"
+export const REVIEW_URL = BASE_URL + "/review"
+export const USER_URL = BASE_URL + "/user"
+export const ORDER_URL = BASE_URL + "/commande"
