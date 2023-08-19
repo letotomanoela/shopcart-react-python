@@ -7,6 +7,8 @@ Frontend : React
 Backend : FastAPI
 Base de données : Oracle
 
+Objectif : Une site e-commerce, possédant un coté client et côté administrateur
+
 
 --Configuration--
 Vous devez avoir un base données ORACLE 21g Express Edition sur votre machine.
