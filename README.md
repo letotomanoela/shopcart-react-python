@@ -1,5 +1,14 @@
 # shopcart-react-python
 
+
+Thème : Shopcart - Ecommerce
+
+Frontend : React
+Backend : FastAPI
+Base de données : Oracle
+
+
+--Configuration--
 Vous devez avoir un base données ORACLE 21g Express Edition sur votre machine.
 Puis créer un utilisateur avec votre username et password 
 Par exemple :
